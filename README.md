@@ -13,6 +13,11 @@ npm install "https://github.com/fabrice102/node-hashtable.git"
 ```
 npm install
 ```
+## Create BNA
+```
+mkdir dist
+composer archive create -a dist/my-network.bna --sourceType dir --sourceName .
+```
 ## Deploy to Fabric
 ```
 composer network deploy -a dist/my-network.bna -p hlfv1 -i PeerAdmin -s randomString
